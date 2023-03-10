@@ -1,0 +1,314 @@
+.conteudo-margin {
+  margin-top: 55px;
+}
+
+.conteudo-margin h1 {
+  text-align: center;
+}
+
+.active.nav-link {
+  color: white !important;
+  border-bottom: 1px solid white !important;
+}
+
+.nav-link {
+  border-bottom: 1px solid transparent;
+}
+
+.bg-dicas {
+  background-image: url("/src/components/img/dica01.png");
+  background-size: cover;
+  padding: 30px;
+  border-radius: 20px;
+  border: 5px solid #9d09c222;
+}
+
+.bg-dicas h2,
+.bg-dicas h5 {
+  padding: 0;
+  border-radius: 10px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.rounded {
+  border: 2px solid #5c0099;
+}
+
+.line {
+  margin-left: 30px;
+}
+
+.bg-navbar {
+  background-color: #5c0099;
+}
+
+.bg-footer {
+  background-color: #5c0099;
+  color: white;
+}
+
+.bg-button input {
+  background-color: #5c0099;
+  color: white;
+  padding: 8px 10px;
+  border: 3px solid #5c0077;
+  border-radius: 10px;
+}
+
+.bg-button-sistema input {
+  background-color: white;
+  color: #5c0099;
+  padding: 6px 8px;
+  border: 3px solid #5c007722;
+  border-radius: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.bg-button-sistema input:hover {
+  background-color: #5c0099;
+  border: 3px solid white;
+  color: white;
+}
+
+.bg-button-sobre input {
+  background-color: white;
+  color: #5c0099;
+  padding: 6px 8px;
+  border: 0;
+  border-bottom: 3px solid #5c0077;
+  border-radius: 10px;
+}
+
+.bg-button-sobre input:hover {
+  background-color: #e49bf755;
+}
+
+
+
+.card-dicas {
+  background-color: aliceblue;
+  border-radius: 30px;
+  padding: 12px 0;
+  align-items: center;
+}
+
+.card-dicas p {
+  margin: 12px 0;
+}
+
+.card-cursos {
+  margin: 50px 0;
+}
+
+.card-funcio {
+  background-image: url("/src/components/img/bg-card.png");
+  background-size: cover;
+  border-radius: 10px;
+  border: 2px solid #be19e9;
+}
+
+.card-funcio p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  color: whitesmoke;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.img-telas {
+  width: 300px;
+  margin: 20px 0;
+}
+
+.link-cursos p {
+  color: #e49bf7;
+  text-align: center;
+}
+
+.link-cursos:hover {
+  color: #eac8f3;
+}
+
+.contato-border {
+  border-color: #5c0077;
+}
+
+.border-contato {
+  color: #5c0077;
+}
+
+.form-contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-cursos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.form-contato input[type="text"] {
+  border: 2px solid #5c0077;
+  width: 800px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.form-login input[type="text"],
+.form-login input[type="password"] {
+  border: 2px solid #5c0077;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.form-login input:focus {
+  background-color: #5c0099;
+  color: white;
+}
+
+.form-cursos input[type="text"] {
+  border: 2px solid #5c0077;
+  width: 800px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.form-cursos input:focus {
+  background-color: #5c0099;
+  color: white;
+}
+
+.form-contato textarea {
+  width: 800px;
+  border: 2px solid #5c0077;
+  border-radius: 5px;
+}
+
+.form-contato input:focus,
+.form-contato textarea:focus {
+  background-color: #5c0099;
+  color: white;
+}
+
+.sistema-button {
+  justify-content: end;
+}
+
+.borda-cursos {
+  border: 2px solid #be19e9;
+  color: white;
+}
+
+.principal-cursos {
+  color: white;
+  background-color: #9c3cdc;
+}
+
+.principal-cursos:hover {
+  color: white;
+  background-color: #9c3cdc55;
+}
+
+tr:hover {
+  color: #ffa1fa;
+  background-color: #ffa1fa22;
+}
+
+tr {
+  color: #5c0099;
+}
+
+.link-cursos {
+  color: #5c0099;
+  text-decoration: none;
+}
+
+.link-cursos:hover {
+  text-decoration: underline;
+  color: #ffa1fa;
+}
+
+.excluir-cursos {
+  color: white;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background-color: #39035d;
+}
+
+.excluir-cursos:hover {
+  background-color: #be19e9;
+}
+
+.editar-cursos {
+  background-color: #9d09c2;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+.editar-cursos:hover {
+  background-color: #e4bcee;
+  color: #5c0077;
+}
+
+.textarea-sobre {
+  width: 1300px;
+  border: 2px solid #5c0077;
+  border-radius: 5px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 100px 0 50px 0;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
+.item01 {
+  width: 700px;
+  margin-right: 100px;
+}
+
+.item02 {
+  width: auto;
+}
+
+.item11 {
+  width: 700px;
+  margin-left: 80px;
+}
